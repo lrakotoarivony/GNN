@@ -1,2 +1,3 @@
 # GNN
-Text classification with GNN (Graph Neural Networks)
+Here is a work I have done on GNN for classification text. The objective of this GNN was to propose the 5 most likely business sectors of a company based on its description. I finally get a MRR of 0.3 which corresponds to the fact that on average the real label corresponds to my 3rd proposal.  
+This result may seem small but I did this work in just 2 days without prior knowledge about GNN. Moreover the number of labels possible is equal to 62 which is quite high. It is also possible to easily improve the results of my GNN by simple modifications that I did not have time to make (architecture modification, variation of hyperparameters, increase of the number of words in the dictionary and the size of the graph)
